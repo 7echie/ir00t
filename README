@@ -1,5 +1,0 @@
-ir00t is a Python script which escalates the privileges to root. 
-
-It downloads a .tar.gz using Python's urllib library and extracts the exploits to the current directory. After that, it compiles the exploit and runs it using os.system. The script is easy to understand and is opensource. 
-
-Coded by Techie; concept by Hooded Robin.
